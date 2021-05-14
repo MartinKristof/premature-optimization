@@ -1,6 +1,5 @@
 import { useCallback, useState } from 'react';
 import { v4 as uuid } from 'uuid';
-import { ColorPicker } from './Color';
 import { MemoizedListOfItems, ListOfItems } from './ListOfItems';
 
 const initialState = [
@@ -84,7 +83,6 @@ export const App = () => {
 
                 <input type="submit" value="Add" />
             </form>
-            <ColorPicker />
 
             <ListOfItems items={items} onRemove={handleRemove} />
         </div>
