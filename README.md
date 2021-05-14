@@ -16,3 +16,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 * Visit `http://localhost:3000/` - to see components without memoization
 * Visit `http://localhost:3000/memoized` - to see components with memoization
+* Visit `http://localhost:3000/results` - to see results example - useEffect, useCallback, useMemo, memo
